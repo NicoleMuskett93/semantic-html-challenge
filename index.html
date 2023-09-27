@@ -1,26 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Hello!</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
 
-  </head>  
-  <body>
-    <!--repalce this h1 and p content with your own html table -->
-    <h1>Hi there!</h1>
+<head>
+  <title>Punk Band Table</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+  <!-- import the webpage's stylesheet -->
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/helvetica-neue-5" rel="stylesheet">
 
-    <!-- include the Glitch button to show what the webpage is about and
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Band</th>
+        <th>Year formed</th>
+        <th>No. of Albums</th>
+        <th>Most famous song</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="band">Buzzcocks </td>
+        <td>1976</td>
+        <td>9</td>
+        <td>Ever fallen in love (with someone you shouldn't've)</td>
+      </tr>
+      <tr>
+        <td class="band">The Clash</td>
+        <td>1976</td>
+        <td>6</td>
+        <td>London Calling</td>
+      </tr>
+      <tr>
+        <td class="band">The Damned</td>
+        <td>1976</td>
+        <td>10</td>
+        <td>Smash it up</td>
+      </tr>
+      <tr>
+        <td class="band">Sex Pistols</td>
+        <td>1975</td>
+        <td>1</td>
+        <td>Anarchy in the UK</td>
+      </tr>
+      <tr>
+        <td class="band">Sham 69</td>
+        <td>1976</td>
+        <td>13</td>
+        <td>If The kids Are United</td>
+      </tr>
+      <tr>
+        <td class="band">Siouxsie and the Banshees</td>
+        <td>1976</td>
+        <td>11</td>
+        <td>Hong Kong Garden</td>
+      </tr>
+      <tr>
+        <td class="band">Stiff Little Fingers</td>
+        <td>1977</td>
+        <td>10</td>
+        <td>Suspect Device</td>
+      </tr>
+      <tr>
+        <td class="band">The Stranglers</td>
+        <td>1974</td>
+        <td>17</td>
+        <td>No More Heroes</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="2">TOTAL ALBUMS</th>
+        <th class="rightFoot" colspan="2">77</th>
+      </tr>
+    </tfoot>
+  </table>
+  <p>A summary of the UK's most famous punk bands</p>
+
+  <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js"></script>
-  </body>
+  <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+  <script src="https://button.glitch.me/button.js"></script>
+</body>
+
 </html>
